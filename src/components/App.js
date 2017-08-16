@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../styles/App.css';
 import EarthquakeList from './EarthquakeList.js';
-
+import EarthquakeInfo from './EarthquakeInfo';
 class App extends Component {
   render() {
     return (
@@ -12,6 +12,7 @@ class App extends Component {
           </div>
         </div>
         <p className="App-intro">
+          <EarthquakeInfo />
           <EarthquakeList />
         </p>
       </div>
